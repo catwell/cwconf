@@ -1,7 +1,7 @@
 Rxvt*background: #000000
 Rxvt*foreground: #e9e9e9
 
-URxvt*font: x:10x20,xft:dina
+URxvt*font: xft:Terminus:bold:size=14
 URxvt:scrollBar: false
 
 URxvt.perl-ext-common: default,matcher,tabbed
