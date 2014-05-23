@@ -2,7 +2,8 @@ Rxvt*background: #000000
 Rxvt*foreground: #e9e9e9
 
 URxvt*font: xft:Terminus:bold:size=14
-URxvt:scrollBar: false
+URxvt*scrollBar: false
+URxvt*saveLines: 10000
 
 URxvt.perl-ext-common: default,matcher,tabbed
 URxvt.url-launcher: /usr/bin/firefox
