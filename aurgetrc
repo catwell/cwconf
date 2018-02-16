@@ -1,0 +1,2 @@
+resolve_dependencies=true
+ignore_packages='android-ndk'
