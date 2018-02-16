@@ -1,102 +1,88 @@
 {
-    "color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
-
-    "font_face": "Terminus",
-    "font_size": 13,
-    "font_options": ["bold"],
-
-    "rulers": [80],
-
-    "tab_size": 4,
-
-    "translate_tabs_to_spaces": true,
-    "use_tab_stops": true,
-    "detect_indentation": true,
-    "auto_indent": true,
-    "smart_indent": true,
-    "indent_to_bracket": false,
-    "trim_automatic_white_space": true,
-
-    "always_show_minimap_viewport": true,
-
-    "trim_trailing_white_space_on_save": true,
-    "ensure_newline_at_eof_on_save": true,
-
-    "tab_completion": true,
-    "auto_complete": false,
-
-    "shift_tab_unindent": true,
-
-    "find_selected_text": true,
-    "auto_find_in_selection": true,
-
-    "scroll_speed": 1.0,
-
-    "show_encoding": true,
-    "show_line_endings": true,
-
-    "hot_exit": false,
-    "remember_open_files": false,
-    "preview_on_click": true,
-
-    "binary_file_patterns":
-    [
-        "*.jpg",
-        "*.jpeg",
-        "*.png",
-        "*.gif",
-        "*.ttf",
-        "*.tga",
-        "*.dds",
-        "*.ico",
-        "*.eot",
-        "*.pdf",
-        "*.swf",
-        "*.jar",
-        "*.zip"
-    ],
-
-    "file_exclude_patterns":
-    [
-        "*.pyc",
-        "*.pyo",
-        "*.exe",
-        "*.dll",
-        "*.obj",
-        "*.o",
-        "*.a",
-        "*.lib",
-        "*.so",
-        "*.dylib",
-        "*.ncb",
-        "*.sdf",
-        "*.suo",
-        "*.pdb",
-        "*.idb",
-        ".DS_Store",
-        "*.class",
-        "*.psd",
-        "*.db",
-        "*.log.json",
-        "key_info.json",
-        "*.d"
-    ],
-
-    "folder_exclude_patterns":
-    [
-        ".svn",
-        ".git",
-        ".hg",
-        "CVS",
-        "build"
-    ],
-
-    "index_exclude_patterns":
-    [
-        "*.log"
-    ],
-
-    "enable_telemetry": "auto",
-
-    "ignored_packages": ["Vintage"]
+	"always_show_minimap_viewport": true,
+	"auto_complete": false,
+	"auto_find_in_selection": true,
+	"auto_indent": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.log.json",
+		"key_info.json",
+		"*.d",
+	],
+	"find_selected_text": true,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+	],
+	"font_face": "Hack",
+	"font_size": 12,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_to_bracket": false,
+	"index_exclude_patterns":
+	[
+		"*.log"
+	],
+	"preview_on_click": true,
+	"remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
+	"scroll_speed": 1.0,
+	"shift_tab_unindent": true,
+	"show_encoding": true,
+	"show_line_endings": true,
+	"smart_indent": true,
+	"tab_completion": true,
+	"tab_size": 4,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+	"use_tab_stops": true
 }
