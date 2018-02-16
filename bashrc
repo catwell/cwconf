@@ -1,20 +1,30 @@
+alias e='subl . >/dev/null 2>/dev/null'
+
 export EDITOR="nano"
+export BROWSER="opera"
 export PS1="[\W \A] "
 export PATH=~/bin:$PATH 
 
 unset HISTFILE
+unset SSH_ASKPASS
+
+ulimit -c unlimited
 
 export LC_CTYPE=en_US.UTF-8
 export LANG=C
 unset LC_ALL
 
-function ghclone {
-  git clone git@github.com:catwell/$1.git
+export ANDROID_HOME=/opt/android-sdk
+export ANDROID_NDK_ROOT=/opt/android-ndk
+
+randpass () {
+    </dev/urandom tr -dc 'A-Za-z0-9' | head -c${1-10}
+    echo
 }
 
-function ghupstream {
-  git remote add upstream git@github.com:$1.git
+jumpto () {
+    local vm="/dcs/vm"
+    cd ${!1}
 }
 
-# http://coderwall.com/p/euwpig?i=3&p=1&t=git
-git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+j () { jumpto $* ; }
