@@ -1,4 +1,4 @@
-set const # show cursor position
+set constantshow # show cursor position
 set matchbrackets "(<[{)>]}"
 set regexp # search 
 set tabsize 4
